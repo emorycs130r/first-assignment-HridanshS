@@ -1,4 +1,3 @@
-
 '''
 
 This file contains the functions that you need for completing this assignment. 
@@ -15,18 +14,22 @@ DO NOT EDIT THE FUNCTION NAMES.
 '''
 
 def append_two_strings(string_1, string_2):
-
-    pass
+    string_1 = string_1 + string_2
+    print(string_1)
+append_two_strings("CS", "130R")
 
 
 def append_character(string_1, char_1):
-
-    pass
+    string_1 = string_1 + char_1
+    print(string_1)
+append_character("Hridans", "h")
 
 
 def append_num_to_string(string_1, num_1):
-
-    pass
+    num_1 = str(num_1)
+    string_1 = string_1 + num_1
+    print(string_1)
+append_num_to_string("982011058", 4)
 
 
 if __name__ == "__main__":
